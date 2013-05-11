@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pixmap" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\pixmap" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Release" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-static" />
+					<Add option="-static-libgcc" />
+					<Add option="-DWIN32" />
+					<Add option="-D__GNUWIN32__" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libgcc" />
+					<Add library="gdiplus" />
+					<Add library="uuid" />
+					<Add library="kernel32" />
+					<Add library="winmm" />
+					<Add library="psapi" />
+					<Add library="user32" />
+					<Add library="comdlg32" />
+					<Add library="shell32" />
+					<Add library="advapi32" />
+					<Add library="ws2_32" />
+					<Add library="msvcrt" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-static" />
+			<Add option="-static-libgcc" />
+		</Compiler>
+		<Unit filename="SOIL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SOIL.h" />
+		<Unit filename="gdx2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gdx2d.h" />
+		<Unit filename="image_DXT.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image_DXT.h" />
+		<Unit filename="image_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image_helper.h" />
+		<Unit filename="stb_image_aug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stb_image_aug.h" />
+		<Unit filename="stb_image_write.h" />
+		<Unit filename="stbi_DDS_aug.h" />
+		<Unit filename="stbi_DDS_aug_c.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

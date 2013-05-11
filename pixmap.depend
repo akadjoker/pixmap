@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1198433342 source:e:\codeblocks\projects\pixmap\main.cpp
+	"main.h"
+
+1198433342 e:\codeblocks\projects\pixmap\main.h
+	<windows.h>
+
+1354744844 source:e:\codeblocks\projects\pixmap\image_dxt.c
+	"image_DXT.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1354744844 e:\codeblocks\projects\pixmap\image_dxt.h
+
+1354744844 source:e:\codeblocks\projects\pixmap\image_helper.c
+	"image_helper.h"
+	<stdlib.h>
+	<math.h>
+
+1354744844 e:\codeblocks\projects\pixmap\image_helper.h
+
+1354744844 source:e:\codeblocks\projects\pixmap\stb_image_aug.c
+	"stb_image_aug.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+	"stbi_DDS_aug.h"
+	"stbi_DDS_aug_c.h"
+
+1354744844 e:\codeblocks\projects\pixmap\stb_image_aug.h
+	<stdio.h>
+
+1354744844 e:\codeblocks\projects\pixmap\stbi_dds_aug.h
+
+1354744844 e:\codeblocks\projects\pixmap\stbi_dds_aug_c.h
+
+1354744844 source:e:\codeblocks\projects\pixmap\soil.c
+	"SOIL.h"
+	"stb_image_write.h"
+	"stb_image_aug.h"
+	"image_helper.h"
+	"image_DXT.h"
+	<stdlib.h>
+	<string.h>
+
+1362433854 e:\codeblocks\projects\pixmap\soil.h
+
+1354744844 e:\codeblocks\projects\pixmap\stb_image_write.h
+	<stdarg.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<assert.h>
+
+1362433862 source:e:\codeblocks\projects\pixmap\gdx2d.c
+	"gdx2d.h"
+	<stdlib.h>
+	"SOIL.h"
+	"image_helper.h"
+
+1362433894 e:\codeblocks\projects\pixmap\gdx2d.h
+
